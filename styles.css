@@ -44,6 +44,24 @@ body{
     font-family: 'Noto Sans Display', sans-serif;
     font-size: 1.3em;
 }
+
+.float{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	color: #fff;
+    font-size:30px;
+    margin-bottom: 1px;
+}
+
+.float:visited {
+	text-decoration: none;
+	color: #fff;
+}
+.my-float{
+	margin-top:16px;
+}
+
 /* Links */
 a{
     text-decoration: none;
@@ -80,11 +98,11 @@ div>a:visited{
     
 }
 
-/*      
-        display: flex;
+/*       display: flex;
         flex-direction: row;
         justify-content: center;
-        align-content: center; */
+        align-content: center; 
+*/
 
 .support__link--actionLogoIg{
         background-image: url(./images/instagram.png);
@@ -246,6 +264,23 @@ div>a:visited{
         justify-content: center;
         align-content: center
     }
+    
+    .float{
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        color: #fff;
+        font-size: 43px;
+        margin-bottom: 1px;
+    }
+    
+    .float:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+    .my-float{
+        margin-top:16px;
+    }
 
 }
 @media all and (min-width: 556px) {
@@ -340,6 +375,22 @@ div>a:visited{
         align-content: center
     }
     
+    .float{
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        color: #fff;
+        font-size: 53px;
+        margin-bottom: 1px;
+    }
+    
+    .float:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+    .my-float{
+        margin-top:16px;
+    }
 
 }
 
@@ -435,6 +486,23 @@ div>a:visited{
         align-content: center
     }
     
+    .float{
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        color: #fff;
+        font-size: 60px;
+        margin-bottom: 1px;
+    }
+    
+    .float:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+    .my-float{
+        margin-top:16px;
+    }
+
 }
 
 @media all and (min-width: 769px) {
@@ -530,4 +598,24 @@ div>a:visited{
         justify-content: center;
         align-content: center
     }
+
+    .float{
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        color: #fff;
+        font-size: 70px;
+        margin-bottom: 1px;
+    }
+    
+    .float:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+    .my-float{
+        margin-bottom: 16px;
+        margin-right: 25px;
+    }
+
 }
+
